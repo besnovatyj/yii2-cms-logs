@@ -9,7 +9,7 @@
 namespace Besnovatyj\Logs\controllers\backend;
 
 use Besnovatyj\Logs\services\LogManageService;
-use common\components\controller\ControllerTrait;
+use Besnovatyj\Kernel\controller\ControllerTrait;
 use Exception;
 use Yii;
 use yii\web\Controller;
