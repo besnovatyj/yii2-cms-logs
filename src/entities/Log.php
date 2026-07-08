@@ -27,7 +27,7 @@ class Log extends BaseObject
      * @param string|null $dateTimeStamp
      * @param array $config
      */
-    public function __construct(SplFileInfo $file, string $dateTimeStamp = null, array $config = [])
+    public function __construct(SplFileInfo $file, ?string $dateTimeStamp = null, array $config = [])
     {
         $this->_file = $file;
         $this->_slug = Inflector::slug($file->getFilename());
